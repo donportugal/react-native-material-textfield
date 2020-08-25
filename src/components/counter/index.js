@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types';
-import React, { PureComponent } from 'react';
-import { Text } from 'react-native';
+import PropTypes from "prop-types";
+import React, { PureComponent } from "react";
+import { Text } from "react-native";
 
-import styles from './styles';
+import styles from "./styles";
 
 export default class Counter extends PureComponent {
   static propTypes = {
@@ -23,14 +23,12 @@ export default class Counter extends PureComponent {
     }
 
     let textStyle = {
-      color: count > limit?
-        errorColor:
-        baseColor,
+      color: count > limit ? errorColor : baseColor,
     };
 
     return (
       <Text style={[styles.text, style, textStyle]}>
-        {count} / {limit}
+        {count} / {limit} caracteres
       </Text>
     );
   }
