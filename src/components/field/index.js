@@ -49,11 +49,11 @@ export default class TextField extends PureComponent {
 
     tintColor: "#00A68E",
     textColor: "#657674",
-    baseColor: "rgba(0, 0, 0, .38)",
+    baseColor: "#8CA4A1",
 
     errorColor: "#FE9292",
 
-    lineWidth: StyleSheet.hairlineWidth,
+    lineWidth: 2,
     activeLineWidth: 2,
     disabledLineWidth: 1,
 
