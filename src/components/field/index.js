@@ -45,7 +45,7 @@ export default class TextField extends PureComponent {
     animationDuration: 225,
 
     fontSize: 16,
-    labelFontSize: 12,
+    labelFontSize: 14,
 
     tintColor: "#00A68E",
     textColor: "#657674",

@@ -1,12 +1,12 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   text: {
     flex: 1,
-    fontSize: 12,
+    fontSize: 13,
     lineHeight: 16,
-    backgroundColor: 'transparent',
+    backgroundColor: "transparent",
     paddingVertical: 2,
-    textAlign: 'left',
+    textAlign: "left",
   },
 });
